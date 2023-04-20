@@ -1,0 +1,13 @@
+[package]
+name = "sui-surfer"
+version.workspace = true
+authors = ["Mysten Labs <build@mystenlabs.com>"]
+license = "Apache-2.0"
+publish = false
+edition = "2021"
+
+[dependencies]
+sui-core = { path = "../sui-core" }
+sui-move-build = { path = "../sui-move-build" }
+
+workspace-hack = { version = "0.1", path = "../workspace-hack" }
